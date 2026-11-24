@@ -1,0 +1,28 @@
+# Arquivos de variáveis de ambiente (Segredos / Chaves)
+.env
+.env.*
+!.env.example
+
+# Dependências e caches
+node_modules/
+.expo/
+dist/
+build/
+web-build/
+
+# Logs e arquivos do sistema
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+.DS_Store
+Thumbs.db
+
+# Chaves e certificados sensíveis
+*.pem
+*.p12
+*.key
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
